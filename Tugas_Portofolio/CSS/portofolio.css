@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Jenis Font" */
+.jacques-francois-shadow-regular {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #102A5B;
+}
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:medium;
+    font-style: normal;
+}
+
+
+/* ------------------- Bagian Nav ------------------ */
+.navbar {
+    position: fixed; 
+    right: 20px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 3rem; 
+    height: auto;
+    background-color: #476D9F;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.4rem 0.4rem 0.625rem rgba(0, 0, 0, 0.3); 
+}
+.garis{
+    border: 1px solid black;
+    width: 0.1rem;
+    background-color: black;
+    height: 1.4rem;
+    margin: 0.2rem 0rem 0.2rem 0rem ;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------- Bagian Home ----------------- */
+.container{
+    display: flex;
+}
+.home-left,.home-right{
+    flex: 1;
+}
+.cloud{
+    left: 42.55%;;
+    position: absolute;
+    z-index: 3;
+    width: 12rem;
+    margin-top: 0.5rem;
+}
+.bird-middle{
+    left: 46%;;
+    width: 7rem;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+/* ---------------------- Home Left ---------------- */
+.home-left img{
+    width: 8rem;
+}
+.home-left-container{
+ margin: 4rem 2rem 1rem 2rem ;   
+}
+.passion{
+    width: 18.5rem;
+    height: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    background-color: #6B7A9A;
+    display: flex;
+    box-shadow: 0.4rem 0.4rem 0.625rem rgba(0, 0, 0, 0.3); 
+    margin-top: 1.2rem;
+}
+.home-right{
+    background-color: #6E7C99;
+}
+.bt-home{
+    box-shadow: 0.4rem 0.4rem 0.625rem rgba(0, 0, 0, 0.3); 
+    background-color: #6B7A9A;
+    border-radius: 1rem;
+    width: 10rem;
+    border: #6B7A9A;
+    height: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.bt-home:hover{
+    background-color: #828ea7;
+}
+.bt-home:active {
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    transform: translateY(3px);
+}
+.bird{
+    float: right;
+    margin-right:3rem;
+}
+.circle-myfoto-hidden{
+    display: none;
+}
+.kontak{
+    display: none
+}
+@media screen and (max-width: 768px) {
+    .kontak{
+        display: flex;
+        justify-content: center;margin-top: 1rem;
+        background-color: #6B7A9A;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div .bird-middle{
+        visibility: none;
+        display: none;
+    }
+    .cloud{
+        margin:1rem 0rem 0rem 5.6rem;
+
+        z-index: 4;
+        float: right;
+        position: absolute;
+    }
+    .circle-myfoto-hidden   {
+        box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        width: 9rem;
+        height: 9rem;
+        border-radius: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        margin-left: 35%;
+    }
+    .circle-myfoto-hidden:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+    .circle-myfoto{
+        display: none;
+        visibility: hidden;
+    }
+    .circle-myfoto-hidden img{
+        height:10rem;
+        width: auto;
+    }
+    .home-right{
+        display: none;
+    }
+    
+}
+/* ------------------ Home Right -------------------  */
+.cloud-top-right,.cloud-top-down{
+    height: 9rem;
+    float: right;
+    z-index: 1;
+}
+.bird-sky{
+    height: 8rem;
+    z-index: 1;
+    position: absolute;
+    margin: 4rem 0rem 0rem 4rem;
+    
+}
+.home-right .circle-myfoto img{
+    height:14rem;
+    
+}
+.circle-myfoto{
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 180px;
+    display: flex;
+    margin-left: 13rem;
+    justify-content: center;
+    align-items: center;
+    margin-top:8rem;
+    z-index: 2;
+}
+.circle-myfoto:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.square-home-right{
+    z-index: 1;
+    width: 8rem;
+    height: 20rem;
+    overflow: hidden;
+    position: absolute;
+}
+.awan{
+    margin-top: 9rem;
+    position: absolute;
+    z-index: 1;
+    width: 7rem;
+    margin-right: 10rem;
+    
+}
+div ul li a img {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border-radius: 180px;
+}
+
+div ul li a img:active {
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5);
+    transform: translateY(3px);
+}
+/* body-person */
+.body-left {
+    flex: 0 0 100px;
+    border: 1px solid #6B7A9A;
+    border-radius: 0rem 1rem 0rem 0rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-left-header {
+    display: flex;
+    align-items: center;
+    width: 14rem;
+}
+
+.body-left-header img {
+    width: 5rem;
+    margin: 1rem;
+}
+
+.body-left-header p {
+    color: #6B7A9A;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.body-left-body {
+    background-color: #6B7A9A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+
+.garis_, .garis_1, .garis_2 {
+    position: relative;
+    height: 3rem;
+    border-left: 3px dashed #000000;
+    margin: 0.5rem;
+}
+
+.garis_1::before,
+.garis_2::after {
+    content: "";
+    position: absolute;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #000000;
+    border-radius: 50%;
+    left: -0.55rem;
+}
+
+.garis_1::before {
+    top: -7px;
+}
+
+.garis_2::after {
+    bottom: -7px;
+}
+
+/* --------------- Body --------------- */
+.body-left-body div a {
+    color: #CDCDCD;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-decoration: none;
+}
+
+.body-left-body div a:hover {
+    color: #FFFFFF;
+}
+
+
+.body-right {
+    flex: 1;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(135deg, rgba(107, 122, 154, 0.1) 25%, transparent 25%),
+        linear-gradient(225deg, rgba(107, 122, 154, 0.1) 25%, transparent 25%),
+        linear-gradient(45deg, rgba(107, 122, 154, 0.1) 25%, transparent 25%),
+        linear-gradient(315deg, rgba(107, 122, 154, 0.1) 25%, transparent 25%);
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    animation: subtleMove 6s infinite linear;
+}
+
+
+@keyframes subtleMove {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 10px 10px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.body-right {
+    flex: 1;
+    height: 100vh;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+}
+
+.body-right::-webkit-scrollbar {
+    display: none; 
+}
+
+.body-right {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.container_{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container_ .header_{
+    flex: 1;
+    font-size: 3rem;
+    width: 49rem;
+    height: 4rem;
+    text-align: center;
+    border: 3px dashed #1F2F4A;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+    color: #596886;
+    border-radius: 0.3rem;
+}
+.explain-me{
+    border-radius: 0.3rem;
+    padding: 1rem;
+    border: 3px solid  #56678b;
+    flex: 1;
+    width:49rem;
+    background-color: #6B7A9A;
+    width: 49rem;
+    margin: 1rem;
+}
+
+/* ----------------- Visi dan Misi ---------------- */
+.visi_misi{
+    border: 3px solid  #56678b;
+    border-radius: 0.3rem;
+    width: 28.5rem;
+    height: 3.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:  #6B7A9A;
+}
+.visi_misi,.studi{
+    font-family: "Passion One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.visi_misi_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.box_1,.box_2{
+    color: #FFFFFF;
+    background-color:  #6B7A9A;
+    padding: 0.5rem;
+    border: 3px solid  #56678b;
+    border-radius: 0.3rem;
+}
+.box_1{
+    width:13rem ;
+
+}
+.box_2{
+    width:12.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.studi{
+
+    height: 3.8rem
+}
+.studi,.box_studi{
+    color: #000000;
+    border-radius: 0.3rem;
+    background-color:  #ffffff;
+    border: 3px dashed  #000000;
+    width: 20.5rem;
+}
+.box_studi{
+    margin-top: 1rem;
+}
+.sub-studi {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:medium;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.sub-studi img{
+    height: 2rem;
+    margin: 0.7rem;
+}
+@media screen and (max-width: 768px) {
+    .body-left{
+        display: none;
+        visibility: hidden;
+    }
+    .visi_misis_edukasi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_ .header_{
+    width: 26rem;
+   }
+    
+   .explain-me{
+    width: 26rem;
+   }
+}
+.minat_bakat{
+    display: flex;
+    flex-direction: column;
+}
+.table_{
+    display: flex;
+    width: 50rem;
+    margin: 1rem;
+}
+.table_ img{
+    width: 25rem;
+}
+.table_ button{
+    width: 5.5rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    background-color: #929db9;
+    border: 1px solid #102A5B;
+    font-weight: 700;
+}
+.table_ button:hover{
+    background-color: #B4BED9;
+}
+.teks{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+.header_header{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    display: flex; 
+    margin-top: 1rem;;
+    width: 51rem;
+}
+.header_header img{
+    margin-right: 0.5rem;  
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.karya{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.karya img{
+    width: 15rem;
+    margin: 1rem;
+}
+.sertifikat{
+    width: 25rem;
+
+}
+@media screen and (max-width: 768px){
+    .header_header{
+        width: 26rem
+    }
+    .table_{
+        display: flex;
+        flex-direction: column;
+        width: 26rem;
+    }
+    .karya{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

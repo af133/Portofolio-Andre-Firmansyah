@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="C:/Materi Semester 4/Pweb/Tugas_Portofolio/ASSET/logo.png">
+    <meta name="theme-color" content="#6E7C99">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Firmansyah</title>
+    <link rel="stylesheet" href="C:/Materi Semester 4/Pweb/Tugas_Portofolio/CSS/loading.css">
+</head>
+<body>
+    <div class="aurora"></div>
+    <div class="loading-container">
+        <div class="loading-text"><span class="typing-text">Welcome to My Portofolio</span></div>
+        <div class="subtext">Andre Firmansyah</div>
+        <div class="loading-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <button class="enter-button" onclick="startPortfolio()">Masuk</button>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function startPortfolio() {
+            let audio = document.getElementById("background-music");
+            audio.play().catch(error => console.log("Autoplay tidak diizinkan oleh browser"));
+
+            setTimeout(() => {
+                window.location.href = "C:/Materi Semester 4/Pweb/Tugas_Portofolio/HTML/portofolio.html"; // Ganti dengan halaman tujuan
+            }, 500);
+        }
+    </script>
+</body>
+</html>
