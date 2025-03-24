@@ -42,15 +42,15 @@ const navnewimg = new IntersectionObserver(entries => {
                     img.src = img.getAttribute("data-original-src"); 
                 });
                 if (navimg[index] === "#kotak_1") {
-                    imgElement.src = `C:/Materi Semester 4/Pweb/Tugas_Portofolio/ASSET/home.png`; 
+                    imgElement.src = `Tugas_Portofolio/ASSET/home.png`; 
                 }
                 if (navimg[index] === "#kotak_2") {
-                    imgElement.src = `C:/Materi Semester 4/Pweb/Tugas_Portofolio/ASSET/person_1.png`; 
+                    imgElement.src = `Tugas_Portofolio/ASSET/person_1.png`; 
                 };
            
                 
                 if  (navimg[index] === "#kotak_3") {
-                    imgElement.src = `C:/Materi Semester 4/Pweb/Tugas_Portofolio/ASSET/interesting_1.png`; 
+                    imgElement.src = `Tugas_Portofolio/ASSET/interesting_1.png`; 
                 }
             }
         }
