@@ -51,7 +51,7 @@ body {
 }
 
 .loading-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
