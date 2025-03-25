@@ -6,16 +6,18 @@ Berikut tampilan halmaan website saya:
 ## 📂 Struktur Halaman
 1. **Halaman Loading:**
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/d2da3298-87e8-462b-9630-ad5592f6f9f4" />
+
 2. **Halaman Utama:**
    - Berisi pengantar singkat dan tampilan awal website.
    - Navigasi menuju halaman lain.
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/e558c3fc-7809-41db-a965-7da3d1504476" />
 
-4. **Tentang Saya**
+3. **Tentang Saya**
    - Informasi pribadi singkat.
    - Pengalaman dan latar belakang pendidikan/profesional.
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/70f51b72-99fe-4ede-8250-032bf4132f06" />
-5. **Minat & Bakat**
+
+4. **Minat & Bakat**
    - Menampilkan minat dan bakat dalam berbagai bidang.
    - Bisa mencakup galeri gambar atau proyek terkait.
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/26bed5f2-92a3-4503-a258-e5b0a1475106" />
