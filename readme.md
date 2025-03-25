@@ -3,28 +3,21 @@
 ## 📖 Deskripsi
 Website portofolio ini menampilkan informasi pribadi, minat, dan bakat dalam desain yang menarik dan responsif. Dibangun dengan HTML, CSS, dan JavaScript, website ini terdiri dari beberapa halaman utama yang mudah dinavigasi.
 Berikut tampilan halmaan website saya:
-1. Halaman loading
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/d2da3298-87e8-462b-9630-ad5592f6f9f4" />
-2. Halaman home
-<img width="959" alt="image" src="https: //github.com/user-attachments/assets/65803fda-ea6a-4433-95bb-46a7b1e4bb95" />
-3. Halaman tentang saya
-<img width="952" alt="image" src="https://github.com/user-attachments/assets/70f51b72-99fe-4ede-8250-032bf4132f06" />
-4. Halaman minat dan bakat
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/26bed5f2-92a3-4503-a258-e5b0a1475106" />
-
 ## 📂 Struktur Halaman
-1. **Halaman Utama**
+1. **Halaman Loading:**
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d2da3298-87e8-462b-9630-ad5592f6f9f4" />
+2. **Halaman Utama**
    - Berisi pengantar singkat dan tampilan awal website.
    - Navigasi menuju halaman lain.
-
-2. **Tentang Saya**
+<img width="959" alt="image" src="https: //github.com/user-attachments/assets/65803fda-ea6a-4433-95bb-46a7b1e4bb95" />
+3. **Tentang Saya**
    - Informasi pribadi singkat.
    - Pengalaman dan latar belakang pendidikan/profesional.
-
-3. **Minat & Bakat**
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/70f51b72-99fe-4ede-8250-032bf4132f06" />
+4. **Minat & Bakat**
    - Menampilkan minat dan bakat dalam berbagai bidang.
    - Bisa mencakup galeri gambar atau proyek terkait.
-
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/26bed5f2-92a3-4503-a258-e5b0a1475106" />
 ## 🛠️ Teknologi yang Digunakan
 - HTML5
 - CSS3
