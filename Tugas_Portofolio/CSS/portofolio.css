@@ -544,11 +544,6 @@ div ul li a img:active {
     /* overflow-y: hidden; */
     overflow-x: hidden;
    }
-   body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   }
+  
     
 }
