@@ -540,10 +540,7 @@ div ul li a img:active {
         display: flex;
         flex-direction: column;
     }
-    .body-right{
-    /* overflow-y: hidden; */
-    overflow-x: hidden;
-   }
+   
   
     
 }
