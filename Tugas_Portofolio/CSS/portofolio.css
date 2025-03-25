@@ -540,7 +540,9 @@ div ul li a img:active {
         display: flex;
         flex-direction: column;
     }
-   
+   .sertifikat{
+        width: 18rem;
+    }
   
     
 }
